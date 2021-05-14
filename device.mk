@@ -408,6 +408,10 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
     android.frameworks.sensorservice@1.0.vendor \
 
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
