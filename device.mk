@@ -136,6 +136,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
     android.hardware.drm@1.4.vendor
 
+# Dolby Audio
+$(call inherit-product, vendor/dolby/dolby.mk)
+
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 

@@ -77,7 +77,7 @@ LOC_HIDL_VERSION := 3.0
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/framework_manifest.xml
-DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 
 # HWUI
