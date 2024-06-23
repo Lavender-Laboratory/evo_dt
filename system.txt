@@ -4,6 +4,9 @@ persist.vendor.cne.feature=1
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
 
+# DroidX-UI Stuff
+ro.droidx.maintainer=Ꮛɳѵoყ-Z
+
 # Iorapd
 ro.iorapd.enable=false
 iorapd.perfetto.enable=false
